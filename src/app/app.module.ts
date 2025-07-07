@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BoldReportComponent } from './bold-report/bold-report.component';
+import { CustomReportComponent } from './custom-report/custom-report.component';
+import { DynamicReportComponent } from './dynamic-report/dynamic-report.component';
+import { RootComponent } from './root/root.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BoldReportComponent,
+    CustomReportComponent,
+    DynamicReportComponent,
+    RootComponent
   ],
   imports: [
     BrowserModule,
