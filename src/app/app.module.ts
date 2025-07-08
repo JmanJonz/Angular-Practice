@@ -7,6 +7,7 @@ import { BoldReportComponent } from './bold-report/bold-report.component';
 import { CustomReportComponent } from './custom-report/custom-report.component';
 import { DynamicReportComponent } from './dynamic-report/dynamic-report.component';
 import { RootComponent } from './root/root.component';
+import { SiteHeaderComponent } from './site-header/site-header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RootComponent } from './root/root.component';
     BoldReportComponent,
     CustomReportComponent,
     DynamicReportComponent,
-    RootComponent
+    RootComponent,
+    SiteHeaderComponent
   ],
   imports: [
     BrowserModule,
